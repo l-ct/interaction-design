@@ -1,1 +1,3 @@
-# interaction-design
+# Interaction Class GitHub
+
+[inducingbehavior.com](http://www.inducingbehavior.com/)
