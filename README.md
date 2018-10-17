@@ -1,3 +1,5 @@
 # Interaction Class GitHub
 
-[inducingbehavior.com](http://www.inducingbehavior.com/)
+***
+
+[interaction.gd](http://www.interaction.gd/)

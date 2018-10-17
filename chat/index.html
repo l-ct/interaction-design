@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Chaaaaaaat!</title>
+		<style>
+			html {
+				font-family: verdana;
+				font-size: 30px;
+			}
+			input[type="text"] {
+				font-family: inherit;
+				font-size: 1rem;
+				padding: 0.5rem;
+				background: pink;
+				border: none;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<input id="input" type="text" onKeyUp="sendToServer(event)">
+		<main id="history"></main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+		<script src="scripts.js"></script>
+	</body>
+</html>
