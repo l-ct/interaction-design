@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Chaaaaaaat!</title>
+		<title>Saved Chats!</title>
 		<style>
 			html {
 				font-family: verdana;
@@ -17,9 +17,12 @@
 		</style>
 	</head>
 	<body>
-		<input id="input" type="text" onKeyUp="sendToServer(event)">
+		<input id="input" type="text">
 		<main id="history"></main>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"
+				integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+				crossorigin="anonymous"></script>
 		<script src="scripts.js"></script>
 	</body>
 </html>
