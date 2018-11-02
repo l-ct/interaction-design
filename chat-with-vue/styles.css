@@ -1,0 +1,39 @@
+/* resets */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: verdana;
+	font-size: 30px;
+}
+
+main {
+	margin: 1rem;
+}
+
+ul {
+	margin-top: 1rem;
+}
+
+ul li {
+	margin: 0.5rem 0;
+	list-style-type: none;
+}
+
+button, input[type="text"]{
+	font-family: inherit;
+	font-size: 1rem;
+	padding: 0.5rem;
+	border: 2px solid pink;
+}
+
+input[type="text"] {
+	background: pink;
+	width: 50%;
+}
+
+button {
+	background-color: inherit;
+}
